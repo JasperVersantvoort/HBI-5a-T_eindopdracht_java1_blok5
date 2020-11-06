@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Cpat_gui">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="673" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="CPAT | Concensus Proteoom Analyse Tool"/>
+    <children>
+      <component id="7d2ba" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Voer hier twee bestanden in:"/>
+        </properties>
+      </component>
+      <component id="ee7d7" class="javax.swing.JTextField" binding="geefBestandTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+          <text value="Geef bestand"/>
+        </properties>
+      </component>
+      <component id="c9fb8" class="javax.swing.JButton" binding="blader1Button" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="blader1"/>
+        </properties>
+      </component>
+      <component id="ccd46" class="javax.swing.JTextField" binding="geefBestandTextField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+          <text value="Geef bestand"/>
+        </properties>
+      </component>
+      <component id="83644" class="javax.swing.JButton" binding="blader2Button" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="blader2"/>
+        </properties>
+      </component>
+      <component id="97986" class="javax.swing.JButton" binding="analyseerHetConsensusProteoomButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Analyseer het consensus proteoom"/>
+        </properties>
+      </component>
+      <component id="bd788" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="60"/>
+          <rows value="10"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
